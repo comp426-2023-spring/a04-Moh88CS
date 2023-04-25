@@ -4,7 +4,6 @@
   "description": "stand up a web API using Express and the module that you produced for a03. rps and rpsls",
   "main": "server.js",
   "type": "module",
-  "port": 5555,
   "directories": {
     "lib": "lib"
   },
