@@ -10,7 +10,7 @@ const port = argv.port || 5555;
 app.use(express.json());
 app.use(express.urlencoded({ extended: true }));
 
-app.get('/app/', (req, res) => res.sendStatus(200));
+app.get('/app/', (req, res) => res.sendStatus(200).send("200 OK"));
 
 app.get('/app/rps/', (req, res) => res.json(rps()));
 app.get('/app/rpsls/', (req, res) => res.json(rpsls()));
